@@ -1,7 +1,7 @@
 <template>
     <div class="footer" id="footer">
         <footer>
-            <p class="kalimatfooter">&copy; copyright 2023 <strong class="jfooter">jak mania fanbase</strong></p>
+            <p class="kalimatfooter">&copy; copyright {{ new Date().getFullYear() }} <strong class="jfooter">jak mania fanbase</strong></p>
         </footer>
     </div>
 </template>
@@ -9,6 +9,7 @@
 <script>
 export default {
     name:"App",
+    el : "#footer",
 }
 </script>
 
